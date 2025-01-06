@@ -6,14 +6,6 @@ from copy import deepcopy
 wine = datasets.load_wine()
 samples = wine.data
 
-
-# print("wine data:")
-# print(wine.data)
-# print("wine target:")
-# print(wine.target)
-# print("description:")
-# print(wine.DESCR)
-
 x = samples[:,0]
 y = samples[:,12]
 
